@@ -32,5 +32,7 @@
     "powershell.codeFormatting.whitespaceAroundOperator": false,
     "powershell.codeFormatting.whitespaceBeforeOpenBrace": false,
     "workbench.startupEditor": "none",
-    "window.smoothScrollingWorkaround": true
+    "window.smoothScrollingWorkaround": true,
+    "git.confirmSync": false,
+    "editor.parameterHints.enabled": false
 }
