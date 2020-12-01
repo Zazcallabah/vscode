@@ -4,6 +4,16 @@
 		"key": "ctrl+alt+j",
 		"command": "-editor.action.insertSnippet",
 		"when": "editorTextFocus && editorLangId == 'powershell'"
+	},
+	{
+		"key": "shift+space",
+		"command": "editor.action.showHover",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+i",
+		"command": "-editor.action.showHover",
+		"when": "editorTextFocus"
 	}
 
 ]
