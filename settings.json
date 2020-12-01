@@ -1,5 +1,5 @@
 {
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "all",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.quickSuggestionsDelay": 100000000,
     "editor.autoClosingBrackets": "never",
@@ -10,7 +10,8 @@
         "other": false,
         "comments": false,
         "strings": false
-    },
+	},
+	"editor.hover.enabled": false,
     "editor.insertSpaces": false,
     "editor.wordBasedSuggestions": false,
     "editor.suggestOnTriggerCharacters": false,
@@ -36,5 +37,21 @@
     "git.confirmSync": false,
     "editor.parameterHints.enabled": false,
     "azureFunctions.showCoreToolsWarning": false,
-    "editor.detectIndentation": false
+	"editor.detectIndentation": false,
+	"debug.allowBreakpointsEverywhere": true,
+	"rust.clippy_preference": "on",
+	"debug.onTaskErrors": "showErrors",
+	"coverage-gutters.showLineCoverage": true,
+	"files.associations": {
+		"*.json": "jsonc"
+	},
+	"editor.copyWithSyntaxHighlighting": false,
+	"[html]": {
+		"editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"workbench.quickOpen.closeOnFocusLost": false
 }
